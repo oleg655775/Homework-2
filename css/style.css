@@ -47,7 +47,8 @@ address {
   color: #2e2f42;
 }
 
-.header-menu-link:hover:active {
+.header-menu-link:hover,
+:focus {
   color: #404bbf;
 }
 
@@ -58,7 +59,8 @@ address {
   color: #434455;
 }
 
-.header-address-link:hover {
+.header-address-link:hover,
+:focus {
   color: #404bbf;
 }
 
@@ -83,7 +85,8 @@ address {
   letter-spacing: 0.04em;
 }
 
-.hero-button:hover:focus {
+.hero-button:hover,
+:focus {
   background-color: #404bbf;
 }
 
@@ -130,7 +133,7 @@ address {
   color: #2e2f42;
 }
 
-.team-list {
+.team-member {
   background-color: #ffffff;
 }
 
@@ -142,18 +145,13 @@ address {
   color: #434455;
 }
 
-.portfolio-list {
-  background-color: #ffffff;
+.portfolio-title {
+  font-size: 36px;
+  line-height: 1.11;
 }
 
-.portfolio-title {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: #2e2f42;
+.portfolio-list {
+  background-color: #ffffff;
 }
 
 .portfolio-mini-title {
@@ -178,6 +176,9 @@ footer {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: #4d5ae5;
 }
 
@@ -186,7 +187,6 @@ footer {
 }
 
 .footer-logo-text {
-  font-size: 16px;
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
