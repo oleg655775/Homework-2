@@ -1,6 +1,5 @@
 body {
   font-family: "Roboto", sans-serif;
-  color: #2e2f42;
   background-color: #ffffff;
 }
 
@@ -33,11 +32,11 @@ address {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: #4d5ae5;
 }
 
 .header-span-logo {
-  color: #4d5ae5;
+  color: #2e2f42;
 }
 
 .header-menu-link {
@@ -49,6 +48,10 @@ address {
 }
 
 .header-menu-link:hover {
+  color: #404bbf;
+}
+
+.header-studio:focus {
   color: #404bbf;
 }
 
@@ -77,11 +80,14 @@ address {
 }
 
 .hero-button {
+  font-weight: 500;
+  line-height: 1.5;
   background-color: #4d5ae5;
   color: #fff;
+  letter-spacing: 0.04em;
 }
 
-.hero-button:hover {
+.hero-button:hover:focus {
   background-color: #404bbf;
 }
 
@@ -89,15 +95,16 @@ address {
   width: 1128px;
 }
 
-.team {
-  width: 1440px;
-  background-color: #f4f4fd;
-}
-
 .advantages-list-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.team {
+  width: 1440px;
+  background-color: #ffffff;
 }
 
 .team-title {
@@ -118,7 +125,7 @@ address {
 .team-mini-title {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.2;
+  line-height: 1.5;
   text-align: center;
   letter-spacing: 0.02em;
 }
@@ -129,19 +136,25 @@ address {
   line-height: 1.5;
   text-align: center;
   letter-spacing: 0.02em;
+  color: #434455;
 }
 
 .portfolio {
   width: 1128px;
 }
 
+.portfolio-list {
+  background-color: #ffffff;
+}
+
 .portfolio-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  color: #2e2f42;
 }
 
 .portfolio-mini-title {
@@ -156,6 +169,7 @@ address {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #434455;
 }
 
 .portfolio-image {
@@ -167,11 +181,11 @@ footer {
 }
 
 .footer-logo-link {
-  color: #f4f4fd;
+  color: #4d5ae5;
 }
 
 .footer-logo-span {
-  color: #4d5ae5;
+  color: #2e2f42;
 }
 
 .footer-text {
