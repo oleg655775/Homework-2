@@ -47,7 +47,7 @@ address {
   color: #2e2f42;
 }
 
-.header-menu-link:hover:focus {
+.header-menu-link:hover:active {
   color: #404bbf;
 }
 
@@ -87,6 +87,14 @@ address {
   background-color: #404bbf;
 }
 
+.advantages-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
 .advantages-list-title {
   font-weight: 500;
   font-size: 20px;
@@ -94,8 +102,13 @@ address {
   letter-spacing: 0.02em;
 }
 
+.advantages-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
 .team {
-  background-color: #ffffff;
+  background-color: #f4f4fd;
 }
 
 .team-title {
@@ -105,14 +118,20 @@ address {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  color: #2e2f42;
 }
 
 .team-mini-title {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.5;
+  line-height: 1.2;
   text-align: center;
   letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.team-list {
+  background-color: #ffffff;
 }
 
 .team-text {
@@ -156,11 +175,17 @@ footer {
 }
 
 .footer-logo-link {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px
+  line-height: 1.17;
+  letter-spacing: 0.03em
+  text-transform: uppercase
   color: #4d5ae5;
 }
 
 .footer-logo-span {
-  color: #2e2f42;
+color: #f4f4fd;
 }
 
 .footer-text {
