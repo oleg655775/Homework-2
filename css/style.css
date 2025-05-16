@@ -98,7 +98,7 @@ address {
   color: #2e2f42;
 }
 
-.advantages-list-title {
+.advantages-mini-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -152,6 +152,10 @@ address {
 
 .portfolio-list {
   background-color: #ffffff;
+}
+
+.portfolio-image {
+  width: 360;
 }
 
 .portfolio-mini-title {
