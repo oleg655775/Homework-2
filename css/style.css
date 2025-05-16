@@ -47,11 +47,7 @@ address {
   color: #2e2f42;
 }
 
-.header-menu-link:hover {
-  color: #404bbf;
-}
-
-.header-studio:focus {
+.header-menu-link:hover:focus {
   color: #404bbf;
 }
 
